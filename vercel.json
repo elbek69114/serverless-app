@@ -1,5 +1,7 @@
 {
-  "builds": [
-    { "src": "api/**/*.ts", "use": "vercel-deno@1.0.0" }
-  ]
+  "functions": {
+    "api/**.ts": {
+      "runtime": "edge"
+    }
+  }
 }
