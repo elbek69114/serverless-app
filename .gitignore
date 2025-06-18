@@ -1,0 +1,18 @@
+# Deno cache
+deno.lock
+deno.jsonc
+deno.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp
+*.log
+*.tmp
